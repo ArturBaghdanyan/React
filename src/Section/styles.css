@@ -1,0 +1,20 @@
+.section {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background: rgb(212, 233, 240);
+    justify-content: space-evenly;
+}
+.section > div {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.section > iframe {
+    width: 450px;
+    margin-top: 75px;
+    height: 250px;
+}

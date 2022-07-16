@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    width: 100%;
+    height: 1350px;
+    overflow: auto;
+    background: whitesmoke;
+}
+
+
+b {
+    text-align: center;
+    background: rgb(85, 155, 85);
+    color: white;
+    border-radius: 6px;
+    font-size: 13px;
+    height: 30px;
+    padding: 10px;
+}
+
+
+
+.container b {
+    color: white;
+}
+.container p {
+    text-align: justify;
+    width: 400px;
+}
+.aside {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-column-gap: 90px;
+    margin-top: 80px;
+
+}
+.aside img {
+    width: 60px;
+}
+.aside div {
+    text-align: center;
+    line-height: 25px;
+    padding: 25px 0;
+}
+
+
+.article {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 150px;
+
+}
+.article p {
+    text-align: center;
+}
+.img {
+    display: flex;
+    justify-content: center;
+}
+.img img {
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+@media screen and (max-width: 1326px) {
+    article {
+        max-width: 1024px;
+    }
+}
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    grid-gap: 30px;
+}
+.parent {
+    width: 230px;
+    height: 270px;
+}
+
+.month {
+    display: grid;
+    position: relative;
+    left: 70px;
+    top:  30px;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    color: white;
+    background: rgb(94, 124, 124);
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 0 14px 0;
+}
+
+.month i {
+    font-size: 10px;
+}
+
+.month strong {
+    font-size: 40px;
+}
+
+.child1 {
+    display: grid;
+    background: rgb(68, 87, 87);
+    color: white;
+    height: 130px;
+    text-align: center;
+    align-content: center;
+}
+.child1 h2 {
+    font-size: 30px;
+}
+.child1 p {
+    font-size: 12px;
+    color: rgb(172, 158, 158);
+}
+
+.child2 {
+    height: 280px;
+    text-align: center;
+    background: rgb(253, 253, 253);
+}
+.child2 p {
+    border-bottom-style: solid;
+    border-width: 2px;
+    padding-top: 30px;
+    color: rgb(182, 179, 179);
+
+}
+
+.child2 span {
+    display: grid;
+    align-content: center;
+    line-height: 30px;
+    display: inline-block;
+    background: rgb(68, 87, 87);
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.green-background, .green-background p{
+    color: white;
+    background: rgb(78, 184, 78);
+}
+
+.child2 .background {
+    background: rgb(63, 170, 63);
+}
+.input  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 280px;
+    line-height: 40px;
+}
+.input p {
+    color: gray;
+}
+.input span {
+    display: flex;
+}
+.input h2 {
+    font-size: 30px;
+}
+form input {
+    width: 230px;
+    padding-left: 10px;
+    margin: 10px;
+    height: 30px;
+    background-color: rgb(192, 190, 190);
+    border: none;
+    margin-top: 20px;
+}
+input:last-child {
+    width: 485px;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 90px;
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    background: rgb(202, 199, 199);
+}
+.footer h3 {
+    font-size: 40px;
+    color: rgb(231, 229, 229);
+}
+.footer p {
+    font-size: 10px;
+}
+.footer div {
+    padding-right: 90px;
+}
+.footer img {
+    padding-left: 10px;
+    width: 40px;
+    height: 30px;
+}
+
+
+
