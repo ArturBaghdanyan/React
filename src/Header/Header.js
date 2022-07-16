@@ -1,5 +1,6 @@
 import './styles.css';
-import elsta from  './icon/elsta.jpg';
+import iphone from  './icon/iphone.png';
+import elsta from  './icon/elsta.png';
 function Header() {
 
     return (
@@ -14,7 +15,7 @@ function Header() {
                 ipsa provident.</p> <br/>
             <p><b>DOWNLOAD</b></p>
             </div>
-
+            <img className="iphone" src={iphone}  alt="logo"/>
         </div>
     );
 }

@@ -1,8 +1,8 @@
 
-import telegram from './icon/telegram.jpg';
-import person from './icon/person.jpg';
-import settings from './icon/settings.jpg';
-import key from './icon/key.jpg';
+import telegram from './icon/telegram.png';
+import person from './icon/person.png';
+import settings from './icon/settings.png';
+import key from './icon/key.png';
 function Aside() {
     return (
         <div className="aside">
